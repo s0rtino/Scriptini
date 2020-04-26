@@ -3,7 +3,7 @@ echo "devi passare il file domini"
 touch support_file_script.txt; cat /dev/null > support_file_script.txt;
 while read line;
 do
-dig +short $line|grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b"|head -1 >> support_file_script.txt;
+dig +short $line|grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" >> support_file_script.txt;
 echo "$line";
 done < $1
 echo "##################################################"
