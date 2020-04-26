@@ -8,9 +8,9 @@ echo "generating reference case..." && reference="$(curl -s $1)" && echo "Done."
 while read line;
 do
 check="$(curl -s "$1$line")"
-#echo "testo $line"
 if [ "$check" != "$reference" ]; 
 then 
         echo $line; 
+        echo $line >> 200Verified.txt;
 fi
 done < $2
