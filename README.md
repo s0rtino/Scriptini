@@ -20,7 +20,9 @@ About
 - Sudo : No
 
 ******  - Massdns clear output - ******
+
 Description:
+
 Clear falsepositive from previuous worldist web discovery: many times a specific link receive HTTP 200 and show the homepage.
 
 - Requirements:
