@@ -23,7 +23,7 @@ About
 
 Description:
 
-Clear falsepositive from previuous worldist web discovery: many times a specific link receive HTTP 200 and show the homepage.
+Clear falsepositive from a worldist web discovery: many times a specific link receive HTTP 200 and show the homepage.
 
 - Requirements:
   - url of the target homepage;
