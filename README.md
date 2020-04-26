@@ -9,7 +9,7 @@ About
 - Some black magic: really fast!
 - Sudo: Yes
 
-******  - massdns clear output - ******
+******  - Massdns clear output - ******
 - From $Home
 - Requirements:
   - all.txt (in my case saved under "Vault" Path): https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056
