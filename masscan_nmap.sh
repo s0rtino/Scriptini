@@ -10,4 +10,4 @@ echo "##################################################"
 masscan -p1-65535 $(awk '!x[$0]++' support_file_script.txt) --max-rate 10000 -oG masscan_out
 echo "##################################################"
 echo "parte il check versioning"
-nmap -Pn -sV $(cat masscan_out | grep Host | cut -d " " -f 2) -p $(cat masscan_out | grep Host | cut -d " " -f 4 | cut -d "/" -f 1) --open -oG versioning
+nmap -Pn -sV $(cat masscan_out | grep Host | cut -d " " -f 2) -p $(cat masscan_out | grep Host | cut -d " " -f 4 | cut -d "/" -f 1) --open -oG versioning.txt
