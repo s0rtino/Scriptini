@@ -6,7 +6,7 @@ About
 ******  - Masscan_nmap.sh - ******
 - Provide list of domains. 
 - In output a full scan + enumeration of service. 
-- Some black magic: really fast!
+- Some black magic: really FAST but very Bandwidth consuming.
 - Sudo: Yes
 
 ******  - Massdns clear output - ******
