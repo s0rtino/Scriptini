@@ -1,0 +1,3 @@
+From $Home
+
+./massdns/bin/massdns -r ./Vault/all.txt -t AAAA -w ./<dir>/massdns_out.txt ./<dir>/domini.txt; cut -f1 -d " " massdns_out.txt | grep <1st level domain> |sed 's/.$//' >>massdns_clear.txt
