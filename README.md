@@ -15,7 +15,7 @@ About
   - all.txt (in my case saved under "Vault" Path): https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056
   - massdns: https://github.com/blechschmidt/massdns
   - domain list (in my case it is called "domini.txt")
-  - specify some directory (not manadatory)
+  - specify some directory [NOT Mandatory]
 - FAST!
 - Sudo : No
 
